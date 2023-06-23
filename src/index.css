@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --deep-dark-blue: #131518;
+  --dark-blue: #262e38;
+  --light-gray: #969fad;
+  --medium-gray: #7c8798;
+  --orange: #fc7614;
+  --gradient: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+}
+
+body,
+html {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Overpass", sans-serif;
+}
